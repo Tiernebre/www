@@ -1,20 +1,31 @@
 {{ define "main" }}
 <main aria-role="main">
     <div class="jumbotron">
-        <h1 class="display-4">
-            Brendan Tierney
-        </h1>
-        <p class="lead">
-            I'm a software engineer with full-stack experience in building scalable software solutions.
-        </p>
-        <hr class="my-4">
-        <p>
-            My experience includes technologies like JavaScript, React, Vue, Java, Spring, Docker, Amazon Web Services,
-            and even more!
-        </p>
-        <p class="lead">
-            <a class="btn btn-primary btn-lg" href="#" role="button">View my resume</a>
-        </p>
+        <div class="container">
+            <div class="row">
+                <div class="col-3 align-self-center d-flex justify-content-center">
+                    <img class="rounded-circle" src="/brendan_tierney.jpg" />
+                </div>
+                <div class="col-9">
+                    <h1 class="display-4">
+                        Brendan Tierney
+                    </h1>
+                    <p class="lead">
+                        I'm a software engineer with full-stack experience in building scalable software solutions.
+                    </p>
+                    <hr class="my-4">
+                    <p>
+                        My experience includes technologies like JavaScript, React, Vue, Java, Spring, Docker, Amazon
+                        Web
+                        Services,
+                        and even more!
+                    </p>
+                    <p class="lead">
+                        <a class="btn btn-primary btn-lg" href="#" role="button">View my resume</a>
+                    </p>
+                </div>
+            </div>
+        </div>
     </div>
 </main>
 {{ end }}
