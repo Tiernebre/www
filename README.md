@@ -12,10 +12,11 @@ These instructions will get you a copy of my personal site up and running on you
 
 ### Installing
 
-1. Clone the repository
+1. Clone the repository and check the directory it is in.
 
 ```bash
 git clone git@github.com:Tiernebre/www.git
+cd www
 ```
 
 2. Using the Hugo CLI, run a development server
