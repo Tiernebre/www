@@ -27,10 +27,6 @@ hugo server --watch -D
 
 3. Hugo will specify what port on localhost the development server is running on.
 
-## Deployment
-
-TBD
-
 ## Built With
 
 - [Hugo](https://gohugo.io/)
