@@ -19,7 +19,7 @@ git clone git@github.com:Tiernebre/www.git
 cd www
 ```
 
-2. Using the Hugo CLI, run a development server
+2. Using the Hugo CLI, run a development server.
 
 ```bash
 hugo server --watch -D
