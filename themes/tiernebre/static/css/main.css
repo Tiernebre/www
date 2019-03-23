@@ -1,0 +1,8 @@
+@media (max-width: 768px) {
+  .center-vertically-when-tablet {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
